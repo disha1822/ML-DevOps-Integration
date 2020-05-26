@@ -27,10 +27,15 @@ Here we have integrated :
 
 ## Machine Learning Model :
 I have used two simple ways to **tweak the ML Model and manage the Hyper parameters**, which are - 
+
 * command line input -
+
 Depending upon the command line input given from the **Jenkins Job** the machine learning code will change the **architecture of model**
 by adding more **Dense layers or Convolve-Pooling layers** depending upon the Developer's ML code. 
+
 * random library -
+
 I have used random library to select different combinations of **hyper parameters** between given range while Jenkins Job retrain the model for better accuracy.
+
 Link to the ML model: https://github.com/disha1822/MLOPs-Task-ML-Part-
 
