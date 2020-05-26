@@ -43,3 +43,9 @@ I have used random library to select different combinations of **hyper parameter
 
 ## DevOps Integration :
 
+#### Job1(Pull Github Code) :
+
+Whenever Developer pushes new ML model code in Github it copies it.
+![a]()
+![b]()
+![c]()
