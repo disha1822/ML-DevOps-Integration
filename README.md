@@ -15,3 +15,22 @@ This task has the following series of things to be done :
   * 7. Job4 : if metrics accuracy is less than 80%  , then tweak the machine learning model architecture.
   * 8. Job5: Retrain the model or notify that the best model is being created
   * 9. Create One extra job job6 for monitor : If container where app is running. fails due to any reason then this job should automatically start the container again from where the last trained model left
+
+# Technologies Integrated :
+Here we have integrated :
+* Machine Learning Model
+* Jenkins
+* Git, Github
+* Docker
+
+# Project Description :
+
+## Machine Learning Model :
+I have used two simple ways to **tweak the ML Model and manage the Hyper parameters**, which are - 
+* command line input -
+Depending upon the command line input given from the **Jenkins Job** the machine learning code will change the **architecture of model**
+by adding more **Dense layers or Convolve-Pooling layers** depending upon the Developer's ML code. 
+* random library -
+I have used random library to select different combinations of **hyper parameters** between given range while Jenkins Job retrain the model for better accuracy.
+Link to the ML model: https://github.com/disha1822/MLOPs-Task-ML-Part-
+
