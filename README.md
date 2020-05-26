@@ -43,6 +43,18 @@ I have used random library to select different combinations of **hyper parameter
 
 ## DevOps Integration :
 
+#### Docker Image Creation :
+
+For **Traditional ML model** we need environment with  mainly **sklearn library** installed and for **Deep Learning** we need **keras and tensorflow**. I have created the Docker images using Dockerfiles for both -
+
+* **Tradditional ML -**
+
+![skl](https://github.com/disha1822/ML-DevOps-Integration/blob/master/dockerfile_skl.png?raw=true)
+
+* **Deep Learning -**
+
+![keras](https://github.com/disha1822/ML-DevOps-Integration/blob/master/dockerfile_keras.png?raw=true)
+
 #### Job1(Pull Github Code) :
 
 It is a simple job to copy Developer codeusing Poll SCM Trigger.We can use Github Webhook Triggers to decrease the computation.
